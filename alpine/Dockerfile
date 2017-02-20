@@ -15,3 +15,5 @@ RUN apk add --no-cache \
 	cmake \
 	bluez-dev
 RUN ln -s qmake-qt5 /usr/bin/qmake
+
+ENV CC=/usr/bin/cc CXX=/usr/bin/c++
